@@ -1,12 +1,11 @@
 import VideoCard from "./VideoCard";
 
-const Body = () => {
+const VideoContainer = () => {
   return (
     <div>
-      <h1>Body</h1>
       <VideoCard />
     </div>
   );
 };
 
-export default Body;
+export default VideoContainer;

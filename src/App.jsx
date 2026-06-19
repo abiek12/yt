@@ -1,17 +1,12 @@
 import Body from "./components/Body";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 import SideBar from "./components/SideBar";
 
 function App() {
   return (
     <div>
-      {/*
-       * Sidebar
-       * Header
-       * Main content
-       * Footer
-       */}
-      <Headers />
+      <Header />
       <SideBar />
       <Body />
       <Footer />
