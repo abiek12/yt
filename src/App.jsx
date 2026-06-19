@@ -1,8 +1,14 @@
 function App() {
   return (
-    <>
-      <h1>App</h1>
-    </>
+    <div>
+      {/*
+       * Sidebar
+       * Header
+       * Main content
+       * Footer
+       */}
+      <Headers />
+    </div>
   );
 }
 
