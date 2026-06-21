@@ -1,7 +1,14 @@
+import ButtonList from "./ButtonList";
+import Search from "./Search";
+
 const Header = () => {
   return (
     <div>
-      <h1>Header</h1>
+      <div>
+        <Search />
+        <div>Right Itmes</div>
+      </div>
+      <ButtonList />
     </div>
   );
 };

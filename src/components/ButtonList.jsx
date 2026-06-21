@@ -4,6 +4,7 @@ const ButtonList = () => {
   return (
     <div>
       <Button />
+      <Button />
     </div>
   );
 };
