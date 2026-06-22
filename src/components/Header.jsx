@@ -1,12 +1,11 @@
 import { ListIcon } from "@phosphor-icons/react";
-import ButtonList from "./ButtonList";
 import Search from "./Search";
 
 const Header = () => {
   return (
     <div>
-      <div className="flex justify-between items-center">
-        <div className="left-section flex justify-center items-center gap-4">
+      <div className="grid grid-cols-12 gap-4 justify-between items-center py-4">
+        <div className="start col-span-2 flex gap-4">
           <ListIcon size={32} color="#00000" />
           <div>
             <svg
@@ -37,14 +36,10 @@ const Header = () => {
             </svg>
           </div>
         </div>
-        <div>
+        <div className="center col-span-7 flex justify-center items-center">
           <Search />
         </div>
-        <div className="right-section">Profile</div>
-      </div>
-
-      <div className="">
-        <ButtonList />
+        <div className="end col-span-3">Profile</div>
       </div>
     </div>
   );

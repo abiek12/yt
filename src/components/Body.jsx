@@ -1,11 +1,11 @@
 import ShortContainer from "./ShortsContainer";
-import VideoCard from "./VideoCard";
 import VideoContainer from "./VideoContainer";
+import ButtonList from "./ButtonList";
 
 const Body = () => {
   return (
     <div>
-      <h1>Body</h1>
+      <ButtonList />
       <VideoContainer />
       <ShortContainer />
     </div>
