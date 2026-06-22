@@ -9,14 +9,14 @@ const Search = () => {
           name=""
           id=""
           placeholder="Search"
-          className="py-1 px-4 border-r flex-1"
+          className="py-1 px-4 border-r flex-1 focus:outline-none focus:ring-0"
         />
-        <button className="py-1 px-5 bg-gray-200 cursor-pointer rounded-r-4xl">
-          <MagnifyingGlassIcon size={30} />
+        <button className="py-1 px-6 bg-gray-200 cursor-pointer rounded-r-4xl">
+          <MagnifyingGlassIcon size={26} />
         </button>
       </div>
       <button className="bg-gray-200 rounded-full p-2 cursor-pointer">
-        <MicrophoneIcon size={30} />
+        <MicrophoneIcon size={28} />
       </button>
     </div>
   );
