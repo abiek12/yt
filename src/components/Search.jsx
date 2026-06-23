@@ -2,7 +2,7 @@ import { MagnifyingGlassIcon, MicrophoneIcon } from "@phosphor-icons/react";
 
 const Search = () => {
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 justify-center">
       <div className="flex border rounded-4xl">
         <input
           type="text"
