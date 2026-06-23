@@ -46,14 +46,14 @@ const Header = () => {
       </div>
 
       <div className="end flex justify-center items-center gap-4 flex=1">
-        <div className="create flex gap-1 bg-gray-200 py-2 px-4 rounded-4xl justify-center items-center">
+        <button className="create flex gap-1 bg-gray-200 py-2 px-4 rounded-4xl justify-center items-center cursor-pointer">
           <PlusIcon size={26} />
           <p className="text-sm">Create</p>
-        </div>
-        <div>
+        </button>
+        <div className="cursor-pointer">
           <BellIcon size={28} />
         </div>
-        <div>
+        <div className="cursor-pointer">
           <UserCircleIcon size={32} />
         </div>
       </div>
